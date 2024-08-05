@@ -1,0 +1,39 @@
+{
+  "apps": [
+    {
+      "name": "1",
+      "script": "./ore/ore",
+      "args": "--rpc rpc1 --keypair ./wallets/1.json --priority-fee 50000 mine --threads 1"
+    },
+    {
+      "name": "2",
+      "script": "./ore/ore",
+      "args": "--rpc rpc1 --keypair ./wallets/2.json --priority-fee 50000 mine --threads 1"
+    },
+    {
+      "name": "3",
+      "script": "./ore/ore",
+      "args": "--rpc rpc1 --keypair ./wallets/3.json --priority-fee 50000 mine --threads 1"
+    },
+    {
+      "name": "4",
+      "script": "./ore/ore",
+      "args": "--rpc rpc1 --keypair ./wallets/4.json --priority-fee 50000 mine --threads 1"
+    },
+    {
+      "name": "5",
+      "script": "./ore/ore",
+      "args": "--rpc rpc2 --keypair ./wallets/5.json --priority-fee 50000 mine --threads 1"
+    },
+    {
+      "name": "6",
+      "script": "./ore/ore",
+      "args": "--rpc rpc2 --keypair ./wallets/6.json --priority-fee 50000 mine --threads 1"
+    },
+    {
+      "name": "7",
+      "script": "./ore/ore",
+      "args": "--rpc rpc2 --keypair ./wallets/7.json --priority-fee 50000 mine --threads 1"
+    }
+  ]
+}
